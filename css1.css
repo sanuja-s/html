@@ -1,0 +1,101 @@
+h2 {
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px dotted blueviolet;
+}
+
+h1 {
+    color: blue;
+    border: 5px dashed yellow;
+}
+#para1{
+    border: 3px solid black;
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+.div1{
+    border: 2px solid black;
+    height: 200px;
+    width:300px;
+    background-color: bisque;
+    color: darkblue;
+    overflow: scroll;
+}
+.para2{
+    border:5px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:darkred;
+    background-color: cadetblue;
+    text-align: center;
+
+}
+.div2 .para3{
+    border: 5px dashed rgb(15, 15, 10);
+    background-color: aquamarine; 
+    color:deeppink;
+    font-style:italic ;
+    font-family: fantasy;
+    font-size: 25px;
+
+    
+}
+h4,h5,h6{
+    font-family: fantasy;
+     color: indianred;
+     background-color: aquamarine;
+     font-size: 30px;
+}
+input[type="text"]{
+    color: darkred;
+    font-size: 20px;
+}
+.blocksam{
+    
+    background-color: rgb(172, 114, 226);
+    height: 200px;
+    width:200px;
+    /* background: linear-gradient(pink ,blue); */
+    /* background: linear-gradient(to right,pink ,blue); */
+    /* background: linear-gradient(to left bottom,pink ,blue); */
+    background: conic-gradient(red,cyan,pink,yellow);
+    border-radius: 50%;
+    
+    /* display: block; */
+    /* display: inline; */
+    /* display: inline-block;     */
+    /* display: none; */
+
+
+}
+.boxshadow{
+    height: 200px;
+    width:200px;
+    background-color: darkcyan;
+    box-shadow: 10px 20px black;
+}
+.bakgrou{
+    background-image:url(fb-logo.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-size: 500px 300px;
+    height: 300px;
+}
+.positionpro{
+    height: 200px;
+    width:300px;
+    background-color: cornflowerblue;
+    position: relative;
+    /* position: absolute; */
+    /* position: fixed; */
+    /* position: sticky;
+
+
+    left: 50px;
+    top: 0px; top0 for sticky */
+
+
+}
